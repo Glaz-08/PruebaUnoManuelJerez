@@ -53,6 +53,13 @@ haga deben preservar la información de este archivo.
 
 1. ¿Cuales patrones de diseño son los adecuados para dar solución al problema de implementación?. Escriba una breve explicación (**10pts**).
 2. ¿Cuales son las propiedades y principios de diseño que atienden los patrones escogidos?. Escriba una breve explicación. (**10pts**)
+### Respuestas:
+1- Respuesta:
+Se ocupa el patron observer para ver el comportamiento de las clases y asi notificarlas, asi avisando de los cambios.
+tambien hize el uso del patron Builder para acortar los pasos en la creacion de objetos.
+2- Respuesta:
+el observer define una dependencia de varios objetos,de forma que cuando un abjeto cambia su estado notifica el cambio a todos los dependientes
+el builder es un patrón de diseño creacional que nos permitiria construir objetos complejos. El patrón nos permite producir distintos tipos y representaciones de un objeto empleando el mismo código de construcción.
 
 ### Preguntas (Parte 2) (35%)
 
@@ -62,7 +69,14 @@ haga deben preservar la información de este archivo.
    las subclases personalicen ciertos pasos sin cambiar la estructura general.
    3. Es un patrón de diseño creacional que se utiliza para crear objetos complejos paso a paso.
    4. Es un patrón de diseño de comportamiento que permite que un objeto notifique a otros objetos cuando cambian sus estados.
-   
+Respuestas:
+   1) y 3) no es pór que Template Mehod es un patron de comportamiento
+   4) es el patron observer
+
+   este patron conduce a que dividas un algoritmo en serie de pasos y conviertas estos pasos en metodos
+   y se coloque una serie de llamadas con estos mismos metodos dentro de un unico metodo, estos pasos pueden ser abstractos
+   el cliente debe portar su sub clase e implementar todos los pasos y si es necesario podrian ser sobre escribidos
+   por lo que la opcion 2)
    **Explique su solución con un breve ejemplo sin entrar en detalles de código.**
 2. Dado el siguiente diagrama de clases:
 

@@ -40,6 +40,7 @@ public class Evento {
             for (Asistente asistente : asistentes) {
                 asistente.notificarCambio(this);
             }
+            //NOTIFICAR EL CAMBIO CON OBSERVER
         }
     }
 
@@ -54,6 +55,7 @@ public class Evento {
             for (Asistente asistente : asistentes) {
                 asistente.notificarCambio(this);
             }
+            //NOTIFICAR EL CAMBIO CON OBSERVER
         }
     }
 
@@ -69,6 +71,7 @@ public class Evento {
                 asistente.notificarCambio(this);
             }
         }
+        //NOTIFICAR EL CAMBIO CON OBSERVER
     }
 
     public List<Asistente> getAsistentes() {
